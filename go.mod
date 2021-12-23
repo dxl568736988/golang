@@ -8,6 +8,7 @@ require (
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20211222082435-0e72cc2dcb4d
 	github.com/go-kratos/kratos/v2 v2.1.3
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang/mock v1.6.0
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/wire v0.5.0
