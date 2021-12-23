@@ -18,7 +18,7 @@ import (
 */
 
 func main() {
-	// 深刻体会到 wire 的便捷之处
+	// 深刻体会到 wire_demo 的便捷之处
 	db := data.NewData()
 	// dao层
 	dao := data.NewArticleRepo(db)

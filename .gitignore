@@ -10,6 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-
+test_week04/*
 # Dependency directories (remove the comment below to include it)
 # vendor/
