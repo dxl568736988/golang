@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package google.plugin;
+
+option go_package = "google/plugin/;api";
+
+import "google/protobuf/descriptor.proto";
+
+extend google.protobuf.MethodOptions {
+  MethodHandler method_handler = 63500;
+}
+
+extend google.protobuf.ServiceOptions {
+  ServiceHandler service_handler = 63501;
+}
+
+message MethodHandler {
+  string authorization = 1; // login token
+  string whitelist     = 2;     // ip whitelist
+  bool   logger        = 3;          // logger
+}
+
+message ServiceHandler {
+  string authorization = 1; // login token
+  string whitelist     = 2;     // ip whitelist
+  bool   logger        = 3;          // logger
+}
